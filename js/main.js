@@ -2,7 +2,7 @@ $(function () {
   /**********작업물 슬라이드**********/
   var workSlide = new Swiper(".work_slide", {
     autoplay: true,
-    speed: 800,
+    speed: 1000,
     loop: true,
     slidesPerView: "auto",
     centeredSlides: true,
