@@ -106,9 +106,9 @@
 .gnb a:after {
   transition: all 0.5s;
 }
-.gnb a:hover:after {
+/* .gnb a:hover:after {
   width: 100%;
-}
+} */
 .gnb a.on {
   color: #f6f8c5;
   position: relative;

@@ -22,15 +22,16 @@ ul {
   list-style: none;
 }
 section,
-header ,footer{
+header,
+footer {
   display: block;
 }
 body,
 input,
 button {
   font-size: 16px;
-  font-family: "Montserrat", "나눔스퀘어", "NanumSquare", "맑은 고딕",
-    "malgun gothic", "Apple SD Gothic Neo", sans-serif;
+  font-family: "Montserrat", "Noto Sans JP", "나눔스퀘어", "NanumSquare",
+    "맑은 고딕", "malgun gothic", "Apple SD Gothic Neo", sans-serif;
   font-weight: 300;
   color: #1f1e3e;
 }
