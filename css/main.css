@@ -41,7 +41,7 @@
 
 .logo a::after,
 .logo a::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   width: 100%;
@@ -98,7 +98,7 @@
   right: 0;
   margin: auto;
   width: 0%;
-  content: ".";
+  content: '.';
   color: rgba(0, 0, 0, 0);
   background: #f6f8c5;
   height: 1px;
@@ -118,7 +118,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  content: "";
+  content: '';
   background: #f6f8c5;
   height: 1px;
 }
@@ -183,7 +183,7 @@
   margin: 0 auto;
 }
 .line_tit:before {
-  content: "";
+  content: '';
   width: 80%;
   height: 2px;
   background: #f6f8c5;
@@ -215,7 +215,7 @@
 }
 
 .intro_txt {
-  font-size: 35px;
+  font-size: 27px;
 }
 
 .intro_info li {
@@ -278,7 +278,7 @@
 }
 
 .section_tit::before {
-  content: "";
+  content: '';
   width: 78%;
   height: 2px;
   background-color: #f6f8c5;
@@ -336,34 +336,19 @@
 }
 
 .skill_circle1 {
-  background: conic-gradient(
-    rgba(246, 248, 197, 1) 90%,
-    rgba(31, 30, 62, 0.4) 10%
-  );
+  background: conic-gradient(rgba(246, 248, 197, 1) 90%, rgba(31, 30, 62, 0.4) 10%);
 }
 .skill_circle2 {
-  background: conic-gradient(
-    rgba(246, 248, 197, 1) 85%,
-    rgba(31, 30, 62, 0.4) 15%
-  );
+  background: conic-gradient(rgba(246, 248, 197, 1) 85%, rgba(31, 30, 62, 0.4) 15%);
 }
 .skill_circle3 {
-  background: conic-gradient(
-    rgba(246, 248, 197, 1) 50%,
-    rgba(31, 30, 62, 0.4) 50%
-  );
+  background: conic-gradient(rgba(246, 248, 197, 1) 50%, rgba(31, 30, 62, 0.4) 50%);
 }
 .skill_circle4 {
-  background: conic-gradient(
-    rgba(246, 248, 197, 1) 75%,
-    rgba(31, 30, 62, 0.4) 25%
-  );
+  background: conic-gradient(rgba(246, 248, 197, 1) 75%, rgba(31, 30, 62, 0.4) 25%);
 }
 .skill_circle5 {
-  background: conic-gradient(
-    rgba(246, 248, 197, 1) 70%,
-    rgba(31, 30, 62, 0.4) 30%
-  );
+  background: conic-gradient(rgba(246, 248, 197, 1) 70%, rgba(31, 30, 62, 0.4) 30%);
 }
 
 .inner_circle {
@@ -398,7 +383,9 @@
 .section4 .work_wrap {
 }
 .section4 .work_wrap .work_box {
-  overflow: hidden;
+  display: block;
+  content: '';
+  clear: both;
   margin: 0 auto;
   width: 60%;
 }
@@ -407,7 +394,8 @@
   width: 50%;
   height: 400px;
   display: block;
-  box-shadow: 7px 7px 8px 2px rgba(31, 30, 62, 0.25);
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%), #ffffff;
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.08);
 }
 .work_img .page {
   display: block;
@@ -486,7 +474,7 @@
 
 .work_info .btn::after,
 .work_info .btn::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   width: 20%;
