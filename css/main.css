@@ -81,11 +81,11 @@
 }
 .lang a {
   color: #f6f8c5;
-  font-size: 20px;
+  font-size: 16px;
 }
 .gnb a {
   color: #fff;
-  font-size: 25px;
+  font-size: 16px;
   position: relative;
 }
 .gnb a:hover {
@@ -106,9 +106,9 @@
 .gnb a:after {
   transition: all 0.5s;
 }
-/* .gnb a:hover:after {
+.gnb a:hover:after {
   width: 100%;
-} */
+}
 .gnb a.on {
   color: #f6f8c5;
   position: relative;
@@ -137,17 +137,17 @@
   font-weight: 200;
 }
 .tit_wrap .name {
-  font-size: 80px;
+  font-size: 45px;
 }
 .tit_wrap .portfolio {
-  font-size: 120px;
+  font-size: 80px;
 }
 .section1 .main_txt {
   position: absolute;
   left: 7%;
   bottom: 12%;
   width: 86%;
-  font-size: 30px;
+  font-size: 20px;
 }
 .section1 .line_tit {
   position: absolute;
@@ -175,7 +175,7 @@
 .line_tit {
   width: 86%;
   opacity: 0.6;
-  font-size: 90px;
+  font-size: 70px;
   font-weight: 200;
   letter-spacing: 10px;
   position: relative;
@@ -210,20 +210,19 @@
   padding: 5% 0;
 }
 .intro_name {
-  font-size: 80px;
+  font-size: 50px;
   font-weight: 600;
 }
 
 .intro_txt {
-  font-size: 27px;
+  font-size: 30px;
 }
-
 .intro_info li {
-  line-height: 60px;
+  line-height: 40px;
 }
 .intro_info a:hover {
   color: #1f1e3e;
-  text-shadow: 1px 1px 1px #1f1e3e54;
+  text-shadow: 2px 2px 0px #1f1e3e54;
 }
 .intro_info .git a {
   background: url(../images/git.ico) no-repeat left center/contain;
@@ -241,7 +240,7 @@
 }
 .info_group .info_tit {
   display: block;
-  font-size: 28px;
+  font-size: 24px;
   padding: 15px 0;
 }
 .info_group dl {
@@ -267,7 +266,7 @@
 }
 /*************** section title 공통 **************/
 .section_tit {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 300;
   letter-spacing: -0.08em;
   width: 86%;
@@ -301,7 +300,7 @@
   width: 60%;
   text-align: center;
   padding-top: 50px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .skill_wrap_top,
@@ -379,13 +378,8 @@
   margin: 0 auto;
   padding-top: 50px;
 }
-
-.section4 .work_wrap {
-}
 .section4 .work_wrap .work_box {
-  display: block;
-  content: '';
-  clear: both;
+  overflow: hidden;
   margin: 0 auto;
   width: 60%;
 }
@@ -394,8 +388,7 @@
   width: 50%;
   height: 400px;
   display: block;
-  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%), #ffffff;
-  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 7px 7px 8px 2px rgba(31, 30, 62, 0.25);
 }
 .work_img .page {
   display: block;
@@ -552,7 +545,7 @@
     font-size: 30px;
   }
   .tit_wrap .portfolio {
-    font-size: 60px;
+    font-size: 50px;
   }
   .intro_name {
     font-size: 40px;
@@ -564,13 +557,13 @@
     font-size: 23px;
   }
   .line_tit {
-    font-size: 60px;
+    font-size: 50px;
   }
   .line_tit::before {
     width: 73%;
   }
   .section_tit {
-    font-size: 60px;
+    font-size: 50px;
   }
   .section_tit::before {
     width: 75%;
@@ -655,9 +648,7 @@
   .section1 .line_tit {
     transform: rotate(90deg);
   }
-  .intro_info li {
-    line-height: 40px;
-  }
+
   /******************section2******************/
   .intro_wrap,
   .info_group {
@@ -699,9 +690,8 @@
   .inner_circle {
     padding-top: 25%;
   }
+
   /******************section4******************/
-  .section4 .work_wrap .work_box {
-  }
   .work_info .work_tit {
     font-size: 30px;
     padding-top: 25px;
@@ -725,8 +715,6 @@
   }
   .work_summary span {
     text-align: center;
-  }
-  .use_skill {
   }
   .use_skill li {
     font-size: 12px;
