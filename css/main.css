@@ -126,10 +126,10 @@
   font-weight: 200;
 }
 .tit_wrap .name {
-  font-size: 45px;
+  font-size: 3.51vw;
 }
 .tit_wrap .portfolio {
-  font-size: 80px;
+  font-size: 6.25vw;
 }
 .section1 .main_txt {
   position: absolute;
@@ -162,7 +162,7 @@
 .line_tit {
   width: 86%;
   opacity: 0.6;
-  font-size: 70px;
+  font-size: 5.46vw;
   font-weight: 200;
   letter-spacing: 10px;
   position: relative;
@@ -195,11 +195,11 @@
   padding: 5% 0px;
 }
 .intro_name {
-  font-size: 50px;
+  font-size: 3.9vw;
   font-weight: 600;
 }
 .intro_txt {
-  font-size: 30px;
+  font-size: 2.34vw;
 }
 .intro_info li {
   line-height: 40px;
@@ -224,7 +224,7 @@
 }
 .info_group .info_tit {
   display: block;
-  font-size: 24px;
+  font-size: 1.87vw;
   padding: 15px 0px;
 }
 .info_group dl {
@@ -280,7 +280,7 @@
   width: 60%;
   text-align: center;
   padding-top: 50px;
-  font-size: 20px;
+  font-size: 1.56vw;
 }
 .skill_wrap_top,
 .skill_wrap_btm {
@@ -305,8 +305,8 @@
   opacity: 1;
 }
 .skill_box .skill_circle {
-  width: 150px;
-  height: 150px;
+  width: 7.5em;
+  height: 7.5em;
   border-radius: 100%;
   position: relative;
   box-shadow: rgba(31, 30, 62, 0.3) 2px 2px 2px;
@@ -350,7 +350,7 @@
 }
 .section4 .work_wrap .work_box {
   margin: 0 auto;
-  padding: 80px 0;
+  padding: 5em 0;
   width: 80%;
   display: flex;
   justify-content: space-between;
@@ -406,31 +406,34 @@
 }
 .work_info .work_tit {
   text-align: center;
-  font-size: 30px;
+  font-size: 2.34vw;
   font-weight: 600;
 }
 .work_info .info_list {
   display: flex;
   flex-wrap: wrap;
-  padding: 30px 0px;
+  padding: 1.43em 0px;
+  font-size: 1.6vw;
 }
 .work_info .info_list li {
   margin-right: 10px;
 }
 .work_summary span {
-  display: block;
-  padding-bottom: 20px;
+  /* display: block;
+  padding-bottom: 20px; */
+
   font-weight: 600;
 }
 .work_summary p {
-  line-height: 2;
+  line-height: 180%;
+  padding: 1.25em 0;
 }
 .use_skill {
   display: flex;
   flex-wrap: wrap;
   font-size: 14px;
   justify-content: space-between;
-  padding: 30px 0px;
+  /* padding: 30px 0px; */
 }
 .use_skill li {
   border: 1px solid rgb(111, 125, 143);
@@ -501,24 +504,10 @@
   text-align: center;
 }
 @media (max-width: 1200px) {
-  .tit_wrap .name {
-    font-size: 30px;
-  }
-  .tit_wrap .portfolio {
-    font-size: 50px;
-  }
-  .intro_name {
-    font-size: 40px;
-  }
-  .intro_txt {
-    font-size: 17px;
-  }
   .section1 .main_txt {
     font-size: 23px;
   }
-  .line_tit {
-    font-size: 50px;
-  }
+
   .line_tit::before {
     width: 73%;
   }
@@ -541,13 +530,13 @@
   }
 }
 @media (max-width: 900px) {
-  .skill_wrap {
+  /*  .skill_wrap {
     font-size: 20px;
   }
-  .skill_box .skill_circle {
+   .skill_box .skill_circle {
     width: 100px;
     height: 100px;
-  }
+  } */
 }
 @media (max-width: 767px) {
   .header_inner a {
@@ -563,15 +552,7 @@
   .section1 .tit_wrap {
     text-align: right;
   }
-  .tit_wrap .name {
-    font-size: 20px;
-  }
-  .tit_wrap .portfolio {
-    font-size: 30px;
-  }
-  .line_tit {
-    font-size: 45px;
-  }
+
   .section1 .main_txt {
     left: -26%;
     bottom: 49%;
@@ -609,14 +590,11 @@
     width: 63%;
     padding-top: 30px;
   }
-  .info_group .info_tit {
-    font-size: 18px;
-  }
+
   .info_group dl {
     font-size: 14px;
   }
   .intro_name {
-    font-size: 30px;
     display: block;
     text-align: right;
   }
@@ -625,32 +603,26 @@
   }
   .section_tit {
     font-size: 40px;
-    text-align-last: left;
+    text-align: left;
   }
   .section_tit::before {
     width: 100%;
   }
   .skill_wrap {
     width: 80%;
-    font-size: 16px;
+    font-size: 2.5vw;
   }
-  .skill_box .skill_circle {
-    width: 65px;
-    height: 65px;
-  }
-  .inner_circle {
-    padding-top: 25%;
-  }
+
   .work_info .work_tit {
-    font-size: 30px;
-    padding-top: 25px;
+    /* font-size: 30px;
+    padding-top: 25px; */
   }
   .work_wrap .work_info {
     width: 100%;
   }
   .section4 .work_wrap .work_box {
     flex-direction: column;
-    padding: 30px 0;
+    /* padding: 30px 0; */
   }
   .section4 .work_wrap .work_box02,
   .section4 .work_wrap .work_box04 {
