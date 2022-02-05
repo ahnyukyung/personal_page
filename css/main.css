@@ -126,12 +126,11 @@
   font-weight: 200;
 }
 .tit_wrap .name {
-  font-size: 3.51vw;
+  font-size: 45px;
 }
 .tit_wrap .portfolio {
-  font-size: 6.25vw;
+  font-size: 80px;
 }
-
 .section1 .main_txt {
   position: absolute;
   left: 7%;
@@ -163,7 +162,7 @@
 .line_tit {
   width: 86%;
   opacity: 0.6;
-  font-size: 5.46vw;
+  font-size: 70px;
   font-weight: 200;
   letter-spacing: 10px;
   position: relative;
@@ -196,36 +195,36 @@
   padding: 5% 0px;
 }
 .intro_name {
-  font-size: 3.9vw;
+  font-size: 50px;
   font-weight: 600;
 }
 .intro_txt {
-  font-size: 2.34vw;
+  font-size: 30px;
 }
 .intro_info li {
   line-height: 40px;
 }
 .intro_info a:hover {
   color: rgb(31, 30, 62);
-  text-shadow: rgba(31, 30, 62, 0.33) 1px 1px 0px;
+  text-shadow: rgba(31, 30, 62, 0.33) 2px 2px 0px;
 }
 .intro_info .git a {
   background: url("../images/git.ico") left center / contain no-repeat;
   padding-left: 25px;
 }
 .info_group {
-  width: 60%;
+  width: 86%;
   display: flex;
   flex-wrap: wrap;
   margin: 0px auto;
   justify-content: space-between;
 }
 .info_group > div {
-  width: 20%;
+  width: 25%;
 }
 .info_group .info_tit {
   display: block;
-  font-size: 1.87vw;
+  font-size: 24px;
   padding: 15px 0px;
 }
 .info_group dl {
@@ -268,18 +267,20 @@
   top: 50px;
   left: 0px;
 }
+.section4 .section_tit::before {
+  background-color: rgb(111, 125, 143);
+}
 .section3 {
   background-color: rgb(111, 125, 143);
   padding: 60px 0px;
   box-sizing: border-box;
 }
-
 .skill_wrap {
   margin: 0px auto;
   width: 60%;
   text-align: center;
   padding-top: 50px;
-  font-size: 1.56vw;
+  font-size: 20px;
 }
 .skill_wrap_top,
 .skill_wrap_btm {
@@ -304,8 +305,8 @@
   opacity: 1;
 }
 .skill_box .skill_circle {
-  width: 7.5em;
-  height: 7.5em;
+  width: 150px;
+  height: 150px;
   border-radius: 100%;
   position: relative;
   box-shadow: rgba(31, 30, 62, 0.3) 2px 2px 2px;
@@ -335,6 +336,7 @@
   top: 50%;
   left: 50%;
   transform: translate3d(-50%, -50%, 0px);
+  font-size: 2vw;
   padding-top: 30%;
   color: rgb(246, 248, 197);
 }
@@ -342,29 +344,22 @@
   display: block;
   color: rgb(246, 248, 197);
   margin-top: 20px;
+  font-size: 1.8vw;
 }
-/* .section4 {
+.section4 {
   position: relative;
   padding-top: 60px;
 }
-.section4 .section_tit::before {
-  background-color: rgb(111, 125, 143);
-}
-.work_row {
-  display: flex;
-  justify-content: space-between;
-  width: 85vw;
-  margin: 0 auto;
-}
 .section4 .work_wrap .work_box {
   margin: 0 auto;
-  padding: 5em 0;
-  width: 80%;
+  padding: 5vw 0;
+  width: 86%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
-.section4 .work_wrap .work_box02,
-.section4 .work_wrap .work_box04 {
+.section4 .work_wrap .work_box01,
+.section4 .work_wrap .work_box04,
+.section4 .work_wrap .work_box06 {
   flex-direction: row-reverse;
 }
 .work_box .work_img {
@@ -394,6 +389,12 @@
 .work_img4 .page {
   transition: all 0.8s linear 0s;
 }
+.work_img5 .page {
+  transition: all 1.8s linear 0s;
+}
+.work_img6 .page {
+  transition: all 1s linear 0s;
+}
 .work_img1 .page {
   background: url("../images/jeju_main.png") center top / cover no-repeat;
 }
@@ -406,6 +407,12 @@
 .work_img4 .page {
   background: url("../images/miniapp.png") center top / cover no-repeat;
 }
+.work_img5 .page {
+  background: url("../images/e3da_pc.png") center top / cover no-repeat;
+}
+.work_img6 .page {
+  background: url("../images/fooda_pc.png") center top / cover no-repeat;
+}
 .work_img:hover .page {
   background-position: center bottom;
 }
@@ -414,14 +421,13 @@
 }
 .work_info .work_tit {
   text-align: center;
-  font-size: 2.34vw;
+  font-size: 30px;
   font-weight: 600;
 }
 .work_info .info_list {
   display: flex;
   flex-wrap: wrap;
-  padding: 1.43em 0px;
-  font-size: 1.6vw;
+  padding: 30px 0px;
 }
 .work_info .info_list li {
   margin-right: 10px;
@@ -432,8 +438,7 @@
   font-weight: 600;
 }
 .work_summary p {
-  line-height: 180%;
-  padding: 1.25em 0;
+  line-height: 2;
 }
 .use_skill {
   display: flex;
@@ -446,6 +451,9 @@
   border: 1px solid rgb(111, 125, 143);
   border-radius: 14px;
   padding: 5px 10px;
+  /* font-size: 3.33vw;
+  padding: 0.5em 0.66em 0.5em 1.16em;
+  border-radius: 5.55em; */
 }
 .work_info .btn_wrap {
   text-align: center;
@@ -503,73 +511,36 @@
 .swiper-button-next {
   right: 45%;
   transform: rotate(45deg);
-} */
-
-/* section4 */
-
-/* .work_box {
-  width: 45%;
 }
-.work_tit {
-  text-align: center;
-  font-size: 2.2vw;
-}
-.info_list,
-.use_skill {
-  display: flex;
-  justify-content: space-around;
-}
-.use_skill li {
-  border: 1px solid rgb(111, 125, 143);
-  border-radius: 14px;
-  padding: 5px 10px;
-}
-.work_summary span {
-  font-weight: 600;
-}
-.work_img .page {
-  display: block;
-  height: 300px;
-  overflow: hidden;
-}
-.work_img .page img {
-  width: 100%;
-} */
-.work_row {
-  display: flex;
-  width: 86%;
-  margin: 0 auto;
-  justify-content: space-between;
-}
-.work_box {
-  width: 45%;
-}
-.work_icon {
-  font-weight: 900;
-  letter-spacing: 5.85px;
-  color: transparent;
-  -webkit-text-stroke: 1px #fff;
-  background-color: #1db4bd;
-  text-align: center;
-  width: 130px;
-  height: 130px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 150%;
-  border-radius: 8px;
-  box-shadow: 0 20px 30px 0 rgb(65 58 58 / 15%);
-}
-
 .copy {
   width: 86%;
-  line-height: 2;
+  line-height: 2em;
   margin: 0px auto 30px;
   text-align: center;
+  word-break: keep-all;
+  /* font-size: 14px; */
+}
+.copy p {
+  font-size: 12px;
 }
 @media (max-width: 1200px) {
+  .tit_wrap .name {
+    font-size: 30px;
+  }
+  .tit_wrap .portfolio {
+    font-size: 50px;
+  }
+  .intro_name {
+    font-size: 40px;
+  }
+  .intro_txt {
+    font-size: 17px;
+  }
   .section1 .main_txt {
     font-size: 23px;
+  }
+  .line_tit {
+    font-size: 50px;
   }
   .line_tit::before {
     width: 73%;
@@ -593,8 +564,12 @@
   }
 }
 @media (max-width: 900px) {
-  .info_group .info_tit {
-    font-size: 3.87vw;
+  .skill_wrap {
+    font-size: 20px;
+  }
+  .skill_box .skill_circle {
+    width: 100px;
+    height: 100px;
   }
 }
 @media (max-width: 767px) {
@@ -611,7 +586,15 @@
   .section1 .tit_wrap {
     text-align: right;
   }
-
+  .tit_wrap .name {
+    font-size: 20px;
+  }
+  .tit_wrap .portfolio {
+    font-size: 30px;
+  }
+  .line_tit {
+    font-size: 45px;
+  }
   .section1 .main_txt {
     left: -26%;
     bottom: 49%;
@@ -649,12 +632,14 @@
     width: 63%;
     padding-top: 30px;
   }
-
-  .info_group dl {
-    font-size: 2vw;
+  .info_group .info_tit {
+    font-size: 18px;
   }
-
+  .info_group dl {
+    font-size: 14px;
+  }
   .intro_name {
+    font-size: 30px;
     display: block;
     text-align: right;
   }
@@ -663,30 +648,32 @@
   }
   .section_tit {
     font-size: 40px;
-    text-align: left;
+    text-align-last: left;
   }
   .section_tit::before {
     width: 100%;
   }
   .skill_wrap {
     width: 80%;
-    font-size: 2.5vw;
+    font-size: 16px;
   }
-
+  .skill_box .skill_circle {
+    width: 65px;
+    height: 65px;
+  }
+  .inner_circle {
+    /* padding-top: 25%; */
+  }
   .work_info .work_tit {
-    /* font-size: 30px;
-    padding-top: 25px; */
+    font-size: 30px;
+    padding-top: 25px;
   }
   .work_wrap .work_info {
     width: 100%;
   }
   .section4 .work_wrap .work_box {
     flex-direction: column;
-    /* padding: 30px 0; */
-  }
-  .section4 .work_wrap .work_box02,
-  .section4 .work_wrap .work_box04 {
-    flex-direction: column;
+    padding: 30px 0;
   }
   .work_box .work_img {
     width: 90%;
@@ -703,13 +690,14 @@
     text-align: center;
   }
   .use_skill li {
-    font-size: 12px;
-    padding: 2px 5px;
-  }
-  .info_group dl {
-    font-size: 2.5vw;
+    font-size: 1.5vw;
+    padding: 0.5em 0.66em;
+    border-radius: 1.55em;
   }
   .copy {
-    font-size: 12px;
+    font-size: 2.3vw;
+  }
+  .copy p {
+    font-size: 1.7vw;
   }
 }

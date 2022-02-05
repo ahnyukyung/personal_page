@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .work_icon {
+        color: #fff;
+        position: relative;
+        min-width: 230px;
+        max-width: 315px;
+        text-align: left;
+        background-color: #07090c;
+        -webkit-perspective: 50em;
+        perspective: 50em;
+      }
+      .work_icon * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all 0.6s ease;
+        transition: all 0.6s ease;
+      }
+      .work_icon img {
+        opacity: 1;
+        width: 100%;
+        -webkit-transform-origin: 50% 0%;
+        -ms-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+      }
+      .work_icon .pro_info {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        -webkit-transform: rotateX(90deg);
+        transform: rotateX(90deg);
+        -webkit-transform-origin: 50% 100%;
+        -ms-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        z-index: 1;
+        opacity: 0;
+      }
+
+      .work_icon:hover img {
+        -webkit-transform: rotateX(-90deg);
+        transform: rotateX(-90deg);
+        opacity: 0;
+      }
+      .work_icon:hover .pro_info {
+        -webkit-transform: rotateX(0deg);
+        transform: rotateX(0deg);
+        opacity: 1;
+        -webkit-transition-delay: 0.2s;
+        transition-delay: 0.2s;
+      }
+    </style>
+  </head>
+  <body>
+    <figure class="work_icon">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample70.jpg" alt="sample70" />
+      <figcaption class="pro_info">
+        <h3>Sue Shei</h3>
+        <p>The strength to change what I can, the inability to accept what I can't and the incapacity to tell the difference.</p>
+        <a href="#" class="read-more">Read More</a>
+      </figcaption>
+    </figure>
+    <!-- <figure class="work_icon hover">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample71.jpg" alt="sample71" />
+      <figcaption>
+        <h3>Indigo Violet</h3>
+        <p>Sometimes I think the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.</p>
+        <a href="#" class="read-more">Read More</a>
+      </figcaption>
+    </figure>
+    <figure class="work_icon">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample76.jpg" alt="sample76" />
+      <figcaption>
+        <h3>Lurch Schpellchek</h3>
+        <p>Dad buried in landslide! Jubilant throngs fill streets! Stunned father inconsolable - demands recount!</p>
+        <a href="#" class="read-more">Read More</a>
+      </figcaption>
+    </figure> -->
+  </body>
+</html>
